@@ -1,0 +1,18 @@
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 200px 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p:first-child {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quoter {
+  align-self: flex-end;
+}

@@ -1,0 +1,27 @@
+.final .button {
+  border: 2px solid white;
+}
+
+.final {
+  background-color: #3882f6;
+  margin: 70px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.final-main {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.final-second {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.final-text {
+  padding: 20px;
+}

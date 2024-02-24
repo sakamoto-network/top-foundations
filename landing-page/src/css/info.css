@@ -1,0 +1,30 @@
+.random-info-title {
+  font-weight: bold;
+  margin-bottom: 32px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(200, 202, 200);
+}
+
+.random-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  text-align: center;
+  padding: 100px;
+}
+
+.random-info-container img {
+  border-radius: 24px;
+  border: 5px solid #3882f6;
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 700px) {
+  .random-info-container {
+    flex-wrap: wrap;
+  }
+}
