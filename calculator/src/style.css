@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1em
 }
 .calc-number {
   color: blue;
-  min-width: 62px;
+  min-width: 5em;
 }
 
 .operators button {
@@ -36,4 +37,5 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 1.5em;
 }
